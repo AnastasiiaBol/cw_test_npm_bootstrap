@@ -1,21 +1,155 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>BrotExperte.de</title>
 
     <link rel="stylesheet" href="css/style.css">
-<!--    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
 
 </head>
 <body>
-<h1>fghjkl;'</h1>
+<!-- Header -->
+<nav class="navbar navbar-light bg-white border-bottom px-4">
+    <a class="navbar-brand fw-bold" href="#"><span class="text-warning">Brot</span>Experte.de</a>
+    <span class="text-muted small">Alles über Brot</span>
+</nav>
 
+<!-- Navigation -->
+<div class="bg-light border-bottom py-2">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#">Ernährung</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotkultur</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotarten</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brothistorie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotmarkt</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotzutaten</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotherstellung</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brotqualität</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Hero -->
+<div class="bg-dark text-white text-center py-5" style="background: url('img/brot.jpg') center/cover no-repeat;">
+    <h2 class="fw-bold">Brotlinks</h2>
+    <p class="container">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+</div>
+
+<!-- Main -->
+<div class="container py-5">
+    <div class="row">
+        <!-- Left: Cards -->
+        <div class="col-md-9">
+            <div class="row g-4">
+                <!-- 6 cards -->
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" *6>
+                    <div class="card h-100">
+                        <img src="css/img/card.jpg" class="card-img-top" alt="Logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum...</p>
+                            <a href="#" class="btn btn-warning">Besuchen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="mt-4">
+                <ul class="pagination">
+                    <li class="page-item disabled"><a class="page-link" href="#">Zurück</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Weiter</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Right: Side content -->
+        <div class="col-md-3">
+            <h6>SEITE TEILEN</h6>
+            <div class="mb-3">
+                <a href="#" class="btn btn-primary btn-sm me-1">Facebook</a>
+                <a href="#" class="btn btn-info btn-sm me-1">Twitter</a>
+                <a href="#" class="btn btn-danger btn-sm">Share</a>
+            </div>
+
+            <div>
+                <h6 class="mt-4">BROTEXTRA</h6>
+                <p><strong>Von ägyptischen Kornmahlerinnen zur modernen Mühle</strong><br><small>25/06/2015</small></p>
+                <hr>
+                <p><strong>Von ägyptischen Kornmahlerinnen zur modernen Mühle</strong><br><small>25/06/2015</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-3">
+    <p class="mb-0">&copy; 2015 BrotExperte.de. Alle Rechte vorbehalten.</p>
+    <a href="#" class="text-secondary small">Brotlinks</a> |
+    <a href="#" class="text-secondary small">Impressum</a> |
+    <a href="#" class="text-secondary small">Datenschutz</a> |
+    <a href="#" class="text-secondary small">Wer betreibt diesen Blog</a>
+</footer>
 
 </body>
 </html>
